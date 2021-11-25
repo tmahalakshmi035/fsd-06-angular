@@ -1,28 +1,135 @@
-var y =4;
-let circleType = "Unknown Circle"; // Global Variable
-//local Scope 
+var data = [  
+    {
+      "profile": {
+          "picture": "",
+          "name": "",
+          "location": "",
+          "time": ""
+      },    
+      "post": "John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results. John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results." ,
+      "likes": [
+          "John Due", 
+          "Danieal Kalion",
+          "Ramki",
+          "Subash" ,
+          "Ravikumar"
+      ],
+      "comments": [
+        {
+           "picture":"",
+           "name":"",
+           "comment":"",
+           "time":"" 
+        },
+        {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       }
+      ]  
+    },
+    {
+      "profile": {
+          "picture": "",
+          "name": "",
+          "location": "",
+          "time": ""
+      },    
+      "post": "John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results. John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results." ,
+      "likes": [
+          "John Due", 
+          "Danieal Kalion",
+          "Ramki",
+          "Subash" ,
+          "Ravikumar"
+      ],
+      "comments": [
+        {
+           "picture":"",
+           "name":"",
+           "comment":"",
+           "time":"" 
+        },
+        {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       }
+      ]  
+    },
+    {
+      "profile": {
+          "picture": "",
+          "name": "",
+          "location": "",
+          "time": ""
+      },    
+      "post": "John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results. John is world famous professional photographer. with forward thinking clients to create beautiful, honest and amazing things that bring positive results." ,
+      "likes": [
+          "John Due", 
+          "Danieal Kalion",
+          "Ramki",
+          "Subash" ,
+          "Ravikumar"
+      ],
+      "comments": [
+        {
+           "picture":"",
+           "name":"",
+           "comment":"",
+           "time":"" 
+        },
+        {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       },
+       {
+          "picture":"",
+          "name":"",
+          "comment":"",
+          "time":"" 
+       }
+      ]  
+    }
+  ]
 
-let circleType =function (r,pi = 3.14){
-  var area = pi * r * r; // local variable
-  return area;
+
+function car(singleData){
+   console.log(singleData)
 }
- let CircleAreaArrow = r => pi * r * r;
 
- let triangleArea = (b, h) => (h * b) / 2;
-
-var result = CircleArea(20);
-
-if (result > 20){
-    circleType = " Bigger Circle"; //It Should be a global Variable
-    console.log (circleType);
-} else{
-    circleType ="Smaller Circle";
-    console.log (circleType);
-}
-
-console.log (Result); //worked
-console.log (triangleArea(10 , 20));
-
-//console.log(Area); // undefined
-
- console.log(circleType); // ?
+data.forEach(car)
